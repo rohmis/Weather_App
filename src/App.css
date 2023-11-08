@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+.bgImg {
+  background-image: url("./weater.jpg");
+  min-height: 662px;
+  margin-top: -30px;
+}
+.App {
+  padding: 50px;
+}
+.heading {
+  font-size: 3rem;
+  background: linear-gradient(to right, #56a9e0, #8e44ad);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.weather {
+  width: 18rem;
+  height: 25rem;
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+}
+.weather1 {
+  width: 15rem;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+  margin-right: 20px;
+  background: rgba(79, 182, 151, 0.164);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+}
+
+
+/* style={{ backgroundColor: "#74d4ee",height:'100px' ,width: "70%", margin: "auto" }} */
+
+.search-bar{
+  background: rgba(79, 182, 151, 0);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  /* backdrop-filter: blur(10px); */
+  height: 100px;
+  width: 70%;
+  margin: auto;
+}
